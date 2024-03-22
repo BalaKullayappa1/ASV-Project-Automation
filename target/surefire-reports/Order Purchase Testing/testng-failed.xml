@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Order Purchase Testing]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.w2a.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Plate Test(failed)" verbose="0">
+    <classes>
+      <class name="com.w2a.testcases.PlateNumberTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setReport"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="plateNumberTest" invocation-numbers="0 1"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.PlateNumberTest -->
+    </classes>
+  </test> <!-- Plate Test(failed) -->
+  <test thread-count="5" name="MMV Test(failed)" verbose="0">
+    <classes>
+      <class name="com.w2a.testcases.MMVTest">
+        <methods>
+          <include name="mMVTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="setReport"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.MMVTest -->
+    </classes>
+  </test> <!-- MMV Test(failed) -->
+  <test thread-count="5" name="VIN Test(failed)" verbose="0">
+    <classes>
+      <class name="com.w2a.testcases.VINNumberTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setReport"/>
+          <include name="endReport"/>
+          <include name="vINNumberTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.VINNumberTest -->
+    </classes>
+  </test> <!-- VIN Test(failed) -->
+</suite> <!-- Failed suite [Order Purchase Testing] -->

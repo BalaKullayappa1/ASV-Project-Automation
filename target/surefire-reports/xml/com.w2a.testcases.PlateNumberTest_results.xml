@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Plate Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="2"
+           time="0.039">
+  <properties />
+  
+            <testcase name="plateNumberTest" time="0.0" classname="com.w2a.testcases.PlateNumberTest">
+          <skipped />
+    </testcase>
+            <testcase name="plateNumberTest" time="0.0" classname="com.w2a.testcases.PlateNumberTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

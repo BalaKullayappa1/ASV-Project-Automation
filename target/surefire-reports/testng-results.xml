@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="1" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-21T20:51:59 IST" name="Order Purchase Testing" finished-at="2024-02-21T20:54:04 IST" duration-ms="124887">
+    <groups>
+    </groups>
+    <test started-at="2024-02-21T20:51:59 IST" name="Plate Test" finished-at="2024-02-21T20:52:00 IST" duration-ms="1282">
+      <class name="com.w2a.testcases.PlateNumberTest">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.w2a.testcases.PlateNumberTest@1f6c9cd8]" started-at="2024-02-21T20:51:59 IST" name="setReport" finished-at="2024-02-21T20:51:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="plateNumberTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.PlateNumberTest@1f6c9cd8]" started-at="2024-02-21T20:51:59 IST" name="plateNumberTest" data-provider="dp" finished-at="2024-02-21T20:51:59 IST" duration-ms="38" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Part name=VICTOR REINZ-SEAL RING, OIL DRAIN PLUG, Runmode=Y, Order Number=, Plate Number=TE02HP, Email=etesting805@gmail.com, Premium=, Password=Baluball@11, Test Case=Search with Plate Number and State, fetch the vehicle car parts and select the car parts to place and order the car parts using below criteria:              Plate Number as "TE02HP", State as "New South Wales" and  Default Category as "Braking System"., Default Category=Braking System, S.NO=1.0, Sub Category=Disc Brake, Shipping Method=Flat Rate, State=New South Wales, Payment Method=Cash On Delivery}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.w2a.testcases.PlateNumberTest.plateNumberTest(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test PLATENUMBERTESTas the Run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test PLATENUMBERTESTas the Run mode is NO
+at com.w2a.testcases.PlateNumberTest.plateNumberTest(PlateNumberTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plateNumberTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.w2a.testcases.PlateNumberTest@1f6c9cd8]" started-at="2024-02-21T20:51:59 IST" name="tearDown" finished-at="2024-02-21T20:51:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=plateNumberTest status=SKIP method=PlateNumberTest.plateNumberTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.PlateNumberTest@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="plateNumberTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.PlateNumberTest@1f6c9cd8]" started-at="2024-02-21T20:51:59 IST" name="plateNumberTest" data-provider="dp" finished-at="2024-02-21T20:51:59 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Part name=VICTOR REINZ-SEAL RING, OIL DRAIN PLUG, Runmode=N, Order Number=, Plate Number=TE02HP, Email=etesting805@gmail.com, Premium=, Password=Baluball@11, Test Case=Search with Plate Number and State, fetch the vehicle car parts and select the car parts to place and order the car parts using below criteria:              Plate Number as "TE02HP", State as "New South Wales" and  Default Category as "Braking System"., Default Category=Braking System, S.NO=2.0, Sub Category=Disc Brake, Shipping Method=Flat Rate, State=New South Wales, Payment Method=Cash On Delivery}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.w2a.testcases.PlateNumberTest.plateNumberTest(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test PLATENUMBERTESTas the Run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test PLATENUMBERTESTas the Run mode is NO
+at com.w2a.testcases.PlateNumberTest.plateNumberTest(PlateNumberTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plateNumberTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.w2a.testcases.PlateNumberTest@1f6c9cd8]" started-at="2024-02-21T20:51:59 IST" name="tearDown" finished-at="2024-02-21T20:51:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=plateNumberTest status=SKIP method=PlateNumberTest.plateNumberTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.PlateNumberTest@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.w2a.testcases.PlateNumberTest@1f6c9cd8]" started-at="2024-02-21T20:51:59 IST" name="endReport" finished-at="2024-02-21T20:52:00 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.w2a.testcases.PlateNumberTest -->
+    </test> <!-- Plate Test -->
+    <test started-at="2024-02-21T20:52:00 IST" name="MMV Test" finished-at="2024-02-21T20:52:01 IST" duration-ms="76">
+      <class name="com.w2a.testcases.MMVTest">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.w2a.testcases.MMVTest@2c5529ab]" started-at="2024-02-21T20:52:00 IST" name="setReport" finished-at="2024-02-21T20:52:00 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="mMVTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.MMVTest@2c5529ab]" started-at="2024-02-21T20:52:00 IST" name="mMVTest" data-provider="dp" finished-at="2024-02-21T20:52:00 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Part name=VICTOR REINZ-SEAL RING, OIL DRAIN PLUG, Model=EQA (H243) | 02.2021-12.2016, Runmode=N, Order Number=, Make=AUDI, Email=etesting805@gmail.com, Premium=, Variants and Year-range=E 1.8 (201.018) | 80 kw | 109 hp | 04.1990-08.1993, Password=Baluball@11, Test Case=Search with Make, Model and Variant, fetch the vehicle car parts and select the car parts to place and order the car parts using below criteria:                             Make as "AUDI", Model as "EQA (H243) | 02.2021-12.2016", Variant as "E 1.8 (201.018) | 80 kw | 109 hp | 04.1990-08.1993" and  Default Category as "ENGINE"., Default Category=ENGINE, Sub Category=Gaskets, S.NO=1.0, Payment Method=Cash On Delivery}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.w2a.testcases.MMVTest.mMVTest(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test MMVTESTas the Run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test MMVTESTas the Run mode is NO
+at com.w2a.testcases.MMVTest.mMVTest(MMVTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mMVTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.w2a.testcases.MMVTest@2c5529ab]" started-at="2024-02-21T20:52:00 IST" name="tearDown" finished-at="2024-02-21T20:52:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mMVTest status=SKIP method=MMVTest.mMVTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.MMVTest@2c5529ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.w2a.testcases.MMVTest@2c5529ab]" started-at="2024-02-21T20:52:00 IST" name="endReport" finished-at="2024-02-21T20:52:01 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.w2a.testcases.MMVTest -->
+    </test> <!-- MMV Test -->
+    <test started-at="2024-02-21T20:52:01 IST" name="VIN Test" finished-at="2024-02-21T20:54:04 IST" duration-ms="123154">
+      <class name="com.w2a.testcases.VINNumberTest">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.w2a.testcases.VINNumberTest@294e5088]" started-at="2024-02-21T20:52:01 IST" name="setReport" finished-at="2024-02-21T20:52:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="vINNumberTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.VINNumberTest@294e5088]" started-at="2024-02-21T20:52:01 IST" name="vINNumberTest" data-provider="dp" finished-at="2024-02-21T20:52:01 IST" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Part name=VICTOR REINZ-SEAL RING, OIL DRAIN PLUG, Order Number=, Vehicle Name=DAEWOO CIELO, Email=etesting805@gmail.com, Premium=, Password=Baluball@11, runmode=N, Test Case=Search with VIN Number, fetch the vehicle car parts and select the car parts to place and order the car parts using below criteria:    VIN Number as "KLATF68V1TB026403" and  Default Category as "ENGINE", Default Category=ENGINE, S.NO=1.0, Sub Category=Gaskets, Shipping Method=Flat Rate, VIN Number=KLATF68V1TB026403, Payment Method=Cash On Delivery}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.w2a.testcases.VINNumberTest.vINNumberTest(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test case as the Run mode for data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test case as the Run mode for data set is NO
+at com.w2a.testcases.VINNumberTest.vINNumberTest(VINNumberTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vINNumberTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.w2a.testcases.VINNumberTest@294e5088]" started-at="2024-02-21T20:52:01 IST" name="tearDown" finished-at="2024-02-21T20:52:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vINNumberTest status=SKIP method=VINNumberTest.vINNumberTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.VINNumberTest@294e5088] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="vINNumberTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.VINNumberTest@294e5088]" started-at="2024-02-21T20:52:01 IST" name="vINNumberTest" data-provider="dp" finished-at="2024-02-21T20:54:03 IST" duration-ms="122292" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Part name=VICTOR REINZ-SEAL RING, OIL DRAIN PLUG, Order Number=, Vehicle Name=DAEWOO CIELO, Email=etesting805@gmail.com, Premium=, Password=Baluball@11, runmode=Y, Test Case=Search with VIN Number, fetch the vehicle car parts and select the car parts to place and order the car parts using below criteria:    VIN Number as "KLATF68V1TB026403" and  Default Category as "Maintenance Service Parts", Default Category=Maintenance Service Parts, S.NO=2.0, Sub Category=Service Intervals, Shipping Method=Flat Rate, VIN Number=KLATF68V, Payment Method=Cash On Delivery}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.w2a.testcases.VINNumberTest.vINNumberTest(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='saved-vehicle']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0RNRBME', ip: '173.20.22.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a81ea6f1b87b9bcdd8400657426c32a
+*** Element info: {Using=xpath, value=//span[@class='saved-vehicle']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='saved-vehicle']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0RNRBME', ip: '173.20.22.125', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a81ea6f1b87b9bcdd8400657426c32a
+*** Element info: {Using=xpath, value=//span[@class='saved-vehicle']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.w2a.base.TestBase.click(TestBase.java:154)
+at com.w2a.testcases.VINNumberTest.vINNumberTest(VINNumberTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vINNumberTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.w2a.testcases.VINNumberTest@294e5088]" started-at="2024-02-21T20:54:03 IST" name="tearDown" finished-at="2024-02-21T20:54:04 IST" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vINNumberTest status=FAILURE method=VINNumberTest.vINNumberTest(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:com.w2a.testcases.VINNumberTest@294e5088] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.w2a.testcases.VINNumberTest@294e5088]" started-at="2024-02-21T20:54:04 IST" name="endReport" finished-at="2024-02-21T20:54:04 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.w2a.testcases.VINNumberTest -->
+    </test> <!-- VIN Test -->
+    <test started-at="2024-02-21T20:54:04 IST" name=" Test" finished-at="2024-02-21T20:54:04 IST" duration-ms="0">
+      <class name="com.w2a.base.TestBase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.base.TestBase@2002348]" started-at="2024-02-21T20:50:58 IST" name="setUp" finished-at="2024-02-21T20:51:59 IST" duration-ms="61251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.base.TestBase@2002348]" started-at="2024-02-21T20:54:04 IST" name="tearDown" finished-at="2024-02-21T20:54:07 IST" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.base.TestBase -->
+    </test> <!--  Test -->
+  </suite> <!-- Order Purchase Testing -->
+</testng-results>
