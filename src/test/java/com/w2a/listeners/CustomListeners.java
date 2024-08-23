@@ -10,7 +10,6 @@ import com.w2a.utilities.MonitoringMail;
 import com.w2a.utilities.TestConfig;
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
-
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestContext;
