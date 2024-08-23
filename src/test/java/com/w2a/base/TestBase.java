@@ -1,7 +1,12 @@
 package com.w2a.base;
 
 
-
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.Status;
+import com.w2a.listeners.CustomListeners;
+import com.w2a.utilities.ExcelReader;
+import com.w2a.utilities.TestUtil;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -33,13 +38,6 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import com.aventstack.extentreports.MediaEntityBuilder;
-import com.aventstack.extentreports.Status;
-import com.w2a.listeners.CustomListeners;
-import com.w2a.utilities.ExcelReader;
-import com.w2a.utilities.TestUtil;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 	//again test2
